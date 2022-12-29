@@ -21,7 +21,7 @@ public class withOutDivision {
         }
 
         // store sign of the result
-        int sign = 1;
+        int sign = 1; int diff = numb1;
         if (numb1 * numb2 < 0) {
             sign = -1;
             // convert both dividend and divisor to positive
@@ -38,7 +38,7 @@ public class withOutDivision {
             numb1 = numb1 - numb2;      // perform a reduction on the dividend
             quotient++;     // increase quotient by 1
         }
-        String result = numb1 + " divided by " + numb2 + " is " + (sign * quotient) + " with a remainder " + (sign * numb1);
+        String result = diff + " divided by " + numb2 + " is " + (sign * quotient) + " with a remainder " + (sign * numb1);
 
 
         return result;
