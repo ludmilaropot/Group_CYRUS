@@ -1,5 +1,4 @@
 package Ephrem;
-
 public class swapNumbers {
     public static void main(String[] args) {
         int x = 34;
@@ -8,5 +7,6 @@ public class swapNumbers {
         y= x-y;
         x = x-y;
         System.out.println("x = "+x +"\ny = "+y);
+
     }
 }
