@@ -23,6 +23,9 @@ public class Odd_Even {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6e0225d (Odd and Even)
         }
 }
